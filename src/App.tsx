@@ -1,7 +1,10 @@
-export default function App() {
+import Hero from './components/Hero'
+
+function App(){
   return (
-    <div className="app">
-      <h1>MineVerse</h1>
+    <div>
+      <Hero/>
     </div>
   )
 }
+export default App
