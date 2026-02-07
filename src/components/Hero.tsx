@@ -1,10 +1,14 @@
-function Hero(){
+
+type HeroProps = {
+    title: string
+
+}
+function Hero({title}: HeroProps) {
     return (
         <section>
-            <h2>Hero Section</h2>
-            <p>This is beginning</p>
-
+            <h2>{title}</h2>
         </section>
     )
 }
+
 export default Hero
